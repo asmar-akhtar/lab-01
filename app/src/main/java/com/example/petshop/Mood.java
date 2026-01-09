@@ -17,7 +17,10 @@ public abstract class Mood {
         this.moodDate = new Date();
     }
 
-    public void Date(Date moodDate) {
+    public Mood(Date moodDate) {
         this.moodDate = moodDate;
     }
+
+    public abstract String speak();
+
 }
